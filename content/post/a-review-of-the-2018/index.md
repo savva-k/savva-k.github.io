@@ -1,14 +1,19 @@
 ---
 title: "A review of the 2018"
 date: "2018-12-31"
+lastmod: "2024-04-07"
 categories:
   - "Blog"
 tags:
   - "2018"
-image: images/main.png
+summary: This summary is written in 2024. I think writing reviews of the year became poluar in our region around 2018 and so I decided to join the trend. Actually I should do it every year as I find it interesting to read even now.
 ---
 
+![](images/main.png)
+
 Update 06.02.2021: Why did I even thought 2018 was bad? :D
+
+Update 07.04.2024: No comments... I should have specified why exactly I've chosen that picture for the beautiful year of 2018.
 
 I think it is the first review of the past year I ever wrote, but it might become a good tradition 😊  
 So, below I list some highlights from the outgoing year. Let's start from a funny pic of my cat :3
