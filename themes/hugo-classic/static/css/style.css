@@ -1,76 +1,87 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #393E41;
-        color: white;
-    }
+  body {
+    background-color: #393e41;
+    color: white;
+  }
 
-    blockquote {
-      background: #393E41;
-    }
+  blockquote {
+    background: #393e41;
+  }
 
-    a {
-      color: #EBC3DB;
-    }
+  a {
+    color: #ebc3db;
+  }
 
-    header {
-      background: #393E41;
-      border-bottom: 2px dotted #EBC3DB;
+  header {
+    background: #393e41;
+    border-bottom: 2px dotted #ebc3db;
+  }
 
-    }
+  .article-meta,
+  .menu a {
+    background: #393e41;
+    color: white;
+  }
 
-    .article-meta, .menu a {
-      background: #393E41;
-      color: white;
-    }
-
-    table {
-      margin: auto;
-      border-top: 1px solid #666;
-      border-bottom: 1px solid #666;
-    }
-    table thead th { border-bottom: 1px solid #666; }
-    th, td { padding: 5px; }
-    tr:nth-child(even) { background: #666 }
-
+  table {
+    margin: auto;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+  }
+  table thead th {
+    border-bottom: 1px solid #666;
+  }
+  th,
+  td {
+    padding: 5px;
+  }
+  tr:nth-child(even) {
+    background: #666;
+  }
 }
-
 
 /* Light mode */
 @media (prefers-color-scheme: light) {
-    blockquote {
-      background: #f9f9f9;
-    }
+  blockquote {
+    background: #f9f9f9;
+  }
 
-    a {
-      color: #613DC1;
-    }
+  a {
+    color: #613dc1;
+  }
 
-    header {
-      background: #613DC1;
-    }
+  header {
+    background: #613dc1;
+  }
 
-    .article-meta, .menu a {
-      background: #E8DBC5;
-      color: #000;
-    }
+  .article-meta,
+  .menu a {
+    background: #e8dbc5;
+    color: #000;
+  }
 
-    table {
-      margin: auto;
-      border-top: 1px solid #666;
-      border-bottom: 1px solid #666;
-    }
-    table thead th { border-bottom: 1px solid #ddd; }
-    th, td { padding: 5px; }
-    tr:nth-child(even) { background: #eee }
-
+  table {
+    margin: auto;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+  }
+  table thead th {
+    border-bottom: 1px solid #ddd;
+  }
+  th,
+  td {
+    padding: 5px;
+  }
+  tr:nth-child(even) {
+    background: #eee;
+  }
 }
-
 
 body {
   max-width: 800px;
   margin: auto;
-  padding: .2em;
+  padding: 0.2em;
   line-height: 1.5em;
 }
 
@@ -88,14 +99,18 @@ output:
 
     */
 
-#TableOfContents, #TOC {
+#TableOfContents,
+#TOC {
   border: 1px solid #eee;
   border-radius: 5px;
 }
 
 /* Header and Footer */
-.menu li { display: inline-block; }
-.article-meta, .menu a {
+.menu li {
+  display: inline-block;
+}
+.article-meta,
+.menu a {
   text-decoration: none;
   padding: 5px;
   border-radius: 5px;
@@ -104,16 +119,26 @@ output:
   margin-bottom: 20px;
 }
 
-.terms { font-size: .9em; }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
+.terms {
+  font-size: 0.9em;
+}
+.menu,
+.article-meta,
+footer {
+  text-align: center;
+}
+.title {
+  font-size: 1.1em;
+}
+footer a {
+  text-decoration: none;
+}
 
 .pull-left {
-    float: left
+  float: left;
 }
 .pull-right {
-    float: right
+  float: right;
 }
 
 a {
@@ -126,42 +151,46 @@ a:hover {
 
 /* Adjust background at your leisure! */
 header {
-    position: relative;
-    width: 100%;
-    height: 1.75rem;
-    font-size: 1rem;
+  position: relative;
+  width: 100%;
+  height: 1.75rem;
+  font-size: 1rem;
 }
 
 header ul,
 header ol {
-    margin: 0;
-    padding: 0;
-    list-style: none
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 header nav {
-    padding: 0 0.5rem
+  padding: 0 0.5rem;
 }
 
 header a {
-    color: #fff;
-    line-height: 1.75rem;
-    padding: 0 0.5rem
+  color: #fff;
+  line-height: 1.75rem;
+  padding: 0 0.5rem;
 }
 header a:hover,
 header .current a {
-    color: #fff
+  color: #fff;
 }
 
 /* Code Boxes */
 pre {
-  border: 2px solid #EBC3DB;
+  border: 2px solid #ebc3db;
   padding: 1em;
   overflow-x: auto;
 }
-pre code { background: none; }
+pre code {
+  background: none;
+}
 
 /* Images, tables, misc. */
-img, iframe, video {
+img,
+iframe,
+video {
   max-width: 100%;
   height: auto;
   display: block;
@@ -184,7 +213,6 @@ main a {
 }
 
 blockquote {
-
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
@@ -199,34 +227,45 @@ blockquote {
   display: block;
 }
 
-
-#table-of-contents {
-}
-
 /* Small devices, phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width: 480px) {
   #foxy {
     min-width: 40px;
     float: center;
     padding: 10px 10px 10px 20px;
     display: block;
   }
-
 }
 
 /* 在大屏幕上应用特定样式 */
 @media screen and (min-width: 768px) {
-    #table-of-contents {
-        position: fixed; /* 固定定位，使其悬浮在页面上 */
-        top: 50%; /* 上边距为50% */
-        right: 15px; /* 右边距为0，将其放在右侧 */
-        transform: translateY(-50%); /* 使用transform来垂直居中 */
-        background-color: #f0f0f0; /* 设置背景颜色 */
-        padding: 10px; /* 添加一些内边距以增加可读性 */
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
-        width: 250px; /* 设置宽度 */
-        max-height: 70vh; /* 设置最大高度为视口的70% */
-        overflow-y: auto; /* 添加垂直滚动条 */
-    }
+  #table-of-contents {
+    position: fixed; /* 固定定位，使其悬浮在页面上 */
+    top: 50%; /* 上边距为50% */
+    right: 15px; /* 右边距为0，将其放在右侧 */
+    transform: translateY(-50%); /* 使用transform来垂直居中 */
+    background-color: #f0f0f0; /* 设置背景颜色 */
+    padding: 10px; /* 添加一些内边距以增加可读性 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    width: 250px; /* 设置宽度 */
+    max-height: 70vh; /* 设置最大高度为视口的70% */
+    overflow-y: auto; /* 添加垂直滚动条 */
+  }
 }
 
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.post-date {
+  font-size: 0.8em;
+}
+
+.post-summary {
+  font-size: 0.9em;
+  line-height: 1.3em;
+  margin-bottom: 2em;
+  font-family: serif;
+}
