@@ -253,6 +253,21 @@ blockquote {
   }
 }
 
+.post-teaser {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.post-image {
+  margin-right: 1em;
+  width: 250px;
+}
+
+.post-content {
+  flex: 1;
+}
+
 .post-header {
   display: flex;
   justify-content: space-between;
