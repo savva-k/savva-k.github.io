@@ -6,7 +6,9 @@ categories:
 tags:
   - "games"
   - "Java"
-image: images/main.png
+params:
+  mainImage: images/main.png
+summary: "Some boring daily news. Most probably about starting learning English and finishing one of my interesting tasks..."
 ---
 
 There are some interesting things in my life today. I started learning English again, and I finished one of my interesting tasks.

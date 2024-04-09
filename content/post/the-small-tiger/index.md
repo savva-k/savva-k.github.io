@@ -5,7 +5,12 @@ categories:
   - "Blog"
 tags:
   - "photos"
-image: images/main.jpg
+params:
+  mainImage: images/main.jpg
+summary: "This cute kitty lives in our house."
 ---
 
-This cute kitty lives in our house. Meet Juliet (or just cat).
+Meet Juliet (or just cat).
+
+Update from 09.04.2024: she is not with us since 2021 😪
+

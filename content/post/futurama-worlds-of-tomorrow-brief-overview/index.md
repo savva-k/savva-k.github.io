@@ -1,11 +1,14 @@
 ---
 title: "Futurama: Worlds of Tomorrow. Brief overview."
 date: "2017-07-06"
+lastMod: "2024-04-08"
 categories:
   - "Blog"
 tags:
   - "games"
-image: images/futurama1.png
+summary: "The world of tomorrow welcomes you. And your microtransactions."
+params:
+  mainImage: "images/futurama1.png"
 ---
 
 As a Futurama fan, I couldn't miss the news about the [Futurama: Worlds of Tomorrow](https://futuramaworldsoftomorrow.gamepedia.com) game and downloaded it.
@@ -67,3 +70,14 @@ Eventually, the artifact is ours. I think Bender is next member in my team.
 I hope the game is good, will check it on the weekend.
 
 Thanks to Jam City who launched this game and big thanks to Matt Groening who launched Futurama!
+
+**Update 08.04.2024**
+
+I was just editing this post because of migration to Hugo and found out that the game was shut down almost a year ago. RIP :)
+
+A quote from Wikipedia:
+
+On March 9, 2023, it was announced Futurama: Worlds of Tomorrow would be closing on April 20, 2023.[3]
+
+On April 20, 2023, the servers were officially shut off without the possibility of playing the game offline.
+

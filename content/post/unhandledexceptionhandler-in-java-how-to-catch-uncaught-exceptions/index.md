@@ -7,10 +7,12 @@ tags:
   - "exceptions"
   - "Java"
   - "concurrency"
-image: images/main.jpg
+params:
+  mainImage: "images/main.jpg"
+summary: "In this short tutorial, I'm going to describe how to handle uncaught exceptions in threads." 
 ---
 
-In this short tutorial, I'm going to describe how to handle uncaught exceptions in threads. This can be done by:
+This can be done by:
 
 - Using threadInstance.setUncaughtExceptionHandler() ─ for a specific thread
 - Overriding ThreadGroup's uncaughtException() method ─ for a thread group

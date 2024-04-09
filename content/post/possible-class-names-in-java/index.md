@@ -4,8 +4,8 @@ date: "2019-01-15"
 categories:
   - "Coding"
 tags:
-  - "1Z0-808"
   - "Java"
+summary: "Can we name a class \"_成分$\"? Let's see!"
 ---
 
 What would be the result of execution of the following code?

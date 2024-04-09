@@ -6,7 +6,9 @@ categories:
 tags:
   - "ATG"
   - "Java"
-image: images/main.jpg
+summary: "Mumbo jumbo with keeping the request in a ThreadLocal variable"
+params:
+  mainImage: "images/main.jpg"
 ---
 
 This article describes how to look up a session-scoped user profile component from a global scope component **that has no access** to a DynamoHttpServletRequest object. To achieve this functionality, we will use a ThreadLocal field an ATG feature called [Insertable Servlet](https://docs.oracle.com/cd/E24152_01/Platform.10-1/ATGPlatformProgGuide/html/s0807insertingservletsinthepipeline01.html). When a request object is created, it goes through a pipeline of Insertable Servlets. We are going to create our own implementation of Insertable Servlet by extending _atg.servlet.pipeline.InsertableServletImpl_ which will store current request to a ThreadLocal variable via a helper class (e.g. RequestContainer). Then, we're going to inject this RequestContainer in every component that needs to look up the profile (or other components).

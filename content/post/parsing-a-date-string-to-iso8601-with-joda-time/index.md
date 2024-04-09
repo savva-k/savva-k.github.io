@@ -4,11 +4,10 @@ date: "2017-02-26"
 categories:
   - "Coding"
 tags:
-  - "dates"
   - "Java"
+summary: "Recently, I faced a date conversion task: convert a string date \"yyyy-MM-ddZ\" (i.e. \"1983-09-15+03:00\") to the ISO8601 standard \"yyyy-MM-dd'T'HH:mm:ss.SSSZ\" (i.e. \"1983-09-15T03:00:00.000+03:00\")."
 ---
 
-Recently, I faced a date conversion task: convert a string date "yyyy-MM-ddZ" (i.e. "1983-09-15+03:00") to the ISO8601 standard "yyyy-MM-dd'T'HH:mm:ss.SSSZ" (i.e. "1983-09-15T03:00:00.000+03:00").
 
 I used Apache Joda time to convert date. First, add a Maven dependency in pom.xml
 

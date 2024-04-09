@@ -5,10 +5,10 @@ categories:
   - "Blog"
 tags:
   - "trip"
-image: images/main.jpg
+params:
+  mainImage: "images/main.jpg"
+summary: "Last weekend we rafted by our small river. We made a raft for 6 hours, sailed on it for about 11 hours and covered about 15 kilometers."
 ---
-
-Last weekend we rafted by our small river. We made a raft for 6 hours, sailed on it for about 11 hours and covered about 15 kilometers.
 
 It was a great adventure. The weather was not so friendly, there were a thunderstorm. After about four hours of rafting we were in Ivan'kovskaya backwater, and suddenly three of us fell overboard. No one can remember how they did that, it was like the sirens started signing around us.
 

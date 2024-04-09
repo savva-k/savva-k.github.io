@@ -2,8 +2,13 @@
 title: "How to install Kibana as a Windows service"
 date: "2017-07-14"
 categories: ["DevOps"]
-tags: ["Kibana", "Windows services", "Elasticsearch"]
-image: images/main.png
+tags: 
+  - "Kibana"
+  - "services"
+  - "Elasticsearch"
+summary: "Let's see how we can install Kibana with Elasticsearch. The summary was written in 2024 so I am afraid the material might be a bit obsolete..."
+params:
+  mainImage: "images/main.png"
 ---
 
 Installing Elasticsearch as a service is an easy task:

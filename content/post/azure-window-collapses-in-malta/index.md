@@ -4,9 +4,10 @@ date: "2017-03-11"
 categories:
   - "Blog"
 tags:
-  - "Malta"
-  - "trip"
-image: images/main.jpg
+  - "travel"
+summary: "Three days ago a natural arch collapsed in Malta. I am lucky to have a picture with it."
+params:
+    mainImage: "images/main.jpg"
 ---
 
 Three days ago a natural arch called Azure Window collapsed in Gozo, Malta. This arch was included on Malta's tentative list of UNESCO World Heritage Sites. It was used as background in some well-known movies such as the Game of Thrones and the Count of Monte-Cristo. It was also a famous place for tourists, so thousands of photos were taken there.

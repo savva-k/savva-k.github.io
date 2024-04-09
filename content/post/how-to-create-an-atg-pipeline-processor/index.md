@@ -6,6 +6,7 @@ categories:
 tags:
   - "ATG"
   - "Java"
+summary: "A part of my Oracle ATG training."
 ---
 
 I'm currently studying Oracle ATG. Kinda big monstrous e-commerce platform. Today I had to create a commerce pipeline processor. So, I started googling and found this great tutorial by Oracle: [Creating processors](https://docs.oracle.com/cd/E24152_01/Platform.10-1/ATGCommProgGuide/html/s1705creatingprocessors01.html). Well, that's not bad. But it's a bit poor. For example, I'd like to know, what is the **Object pParam?** What is the **PipelineResult pResult?** Actually, there's the third (unanswered) question: why all **p**arameters starts with **"p"?**

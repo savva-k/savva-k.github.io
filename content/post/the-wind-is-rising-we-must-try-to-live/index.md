@@ -6,10 +6,10 @@ categories:
 tags:
   - "movies"
   - "thoughts"
-image: images/main.jpg
+params:
+  mainImage: "images/main.jpg"
+summary: "I haven't written anything for a long time. There were nothing special for last two months in my life. I continue studying Java on workdays and go home on weekends. Actually, this autumn I hope I will find time to describe GOF patterns in Java on this site."
 ---
-
-I haven't written anything for a long time. There were nothing special for last two months in my life. I continue studying Java on workdays and go home on weekends. Actually, this autumn I hope I will find time to describe GOF patterns in Java on this site.
 
 Last weekend we watched a film by Japanese animator Hayao Miyazaki called The Wind Rises. I love almost all his films (almost — because I haven't watched all of them, I think 😌). Each frame of these films is a masterpiece.
 

@@ -5,11 +5,11 @@ lastmod: "2024-04-07"
 categories:
   - "Blog"
 tags:
-  - "2018"
+  - "year reivew"
 summary: This summary is written in 2024. I think writing reviews of the year became poluar in our region around 2018 and so I decided to join the trend. Actually I should do it every year as I find it interesting to read even now.
+params:
+    mainImage: "images/main.png"
 ---
-
-![](images/main.png)
 
 Update 06.02.2021: Why did I even thought 2018 was bad? :D
 

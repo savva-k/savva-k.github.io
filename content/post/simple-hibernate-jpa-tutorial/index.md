@@ -6,9 +6,8 @@ categories:
 tags:
   - "JPA"
   - "Java"
+summary: "In this small tutorial, we will see how to start using Hibernate framework. In further lessons, I will show how to create one-to-one, one-to-many, and many-to-many relationships. Now we are going to create a new Maven project, add some dependencies, configure JPA and create our first entity. Let's get started."
 ---
-
-In this small tutorial, we will see how to start using Hibernate framework. In further lessons, I will show how to create one-to-one, one-to-many, and many-to-many relationships. Now we are going to create a new Maven project, add some dependencies, configure JPA and create our first entity. Let's get started.
 
 By the way, the source code from this lesson is available on [GitHub](https://github.com/savva-k/HibernateSimpleApp).
 

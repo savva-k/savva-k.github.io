@@ -4,15 +4,12 @@ date: "2018-12-30"
 categories:
   - "Coding"
 tags:
-  - "1Z0-808"
-  - "OCA"
   - "Java"
-image: images/main.png
+params:
+  mainImage: images/main.png
+summary: "Good news, everyone! Even though this is the first blog in 2018, I'm still alive and I'm happy to say that I have passed the Oracle Certified Associate exam with 94% of correct answers (I still can't believe it 😱).
+"
 ---
-
-Good news, everyone!
-
-Even though this is the first blog in 2018, I'm still alive and I'm happy to say that I have passed the Oracle Certified Associate exam with 94% of correct answers (I still can't believe it 😱).
 
 It took about a month to prepare and I was spending all my free the time after work to read a book and write and test code examples.
 

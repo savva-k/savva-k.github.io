@@ -3,11 +3,13 @@ title: "Logging in ATG: how to send error reports to Elasticsearch and display t
 date: "2017-07-13"
 author: "Savva Kodeikin"
 categories: ["Coding"]
-tags: ["ATG", "Elasticsearch", "Kibana", "logging", "Java"]
-image: images/atg_logo3.jpg
+tags: ["ATG", "Elasticsearch", "Kibana", "Java"]
+params:
+  mainImage: "images/atg_logo3.jpg"
+summary: "In this article, I'm going to share my experience with Oracle ATG logging system and such great tools like Elasticsearch and Kibana. Imagine we have a big ATG-based project and our task is to store and list all the users who met (explicitly or not) errors. To solve this task we will add a new event listener to filter errors, will face a problem with resolving users' profile from the listener, will send an error report to an Elasticsearch server and finally display the data with Kibana."
 ---
 
-In this article, I'm going to share my experience with Oracle ATG logging system and such great tools like Elasticsearch and Kibana. Imagine that we have a big ATG-based project and our task is to store and list all the users who met (explicitly or not) errors. To solve this task we will add a new event listener to filter errors, will face a problem with resolving users' profile from the listener, will send an error report to an Elasticsearch server and finally display the data with Kibana.
+In this article, I'm going to share my experience with Oracle ATG logging system and such great tools like Elasticsearch and Kibana. Imagine we have a big ATG-based project and our task is to store and list all the users who met (explicitly or not) errors. To solve this task we will add a new event listener to filter errors, will face a problem with resolving users' profile from the listener, will send an error report to an Elasticsearch server and finally display the data with Kibana.
 
 Although this article describes creating ATG-specific logging feature, it will be quite easy to adjust this tutorial for using with Slf4j or whatever you want.
 

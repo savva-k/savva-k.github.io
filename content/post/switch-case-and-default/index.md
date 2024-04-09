@@ -4,8 +4,8 @@ date: "2019-01-13"
 categories:
   - "Coding"
 tags:
-  - "1Z0-808"
   - "Java"
+summary: "Actually this article could be updated with the latest improvement (switch expression)"
 ---
 
 ```java

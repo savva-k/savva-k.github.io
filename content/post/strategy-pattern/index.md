@@ -4,11 +4,10 @@ date: "2016-06-12"
 categories:
   - "Coding"
 tags:
-  - "patterns"
+  - "Design Patterns"
   - "Java"
+summary: "With this post I'm starting series of articles dedicated to GoF design patterns. GoF stands for Gang of Four - four authors that wrote a famous book about design patterns."
 ---
-
-With this post I'm starting series of articles dedicated to GoF design patterns. GoF stands for Gang of Four - four authors that wrote a famous book about design patterns.
 
 So the first pattern I want to describe is **Strategy**. It allows to choose the behaviour of instances at runtime by defining appropriate strategy.
 

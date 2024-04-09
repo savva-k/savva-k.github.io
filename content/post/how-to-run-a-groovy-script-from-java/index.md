@@ -6,6 +6,7 @@ categories:
 tags:
   - "Groovy"
   - "Java"
+summary: "Let's figure that out!"
 ---
 
 One of the ways of running a Groovy script from Java is using GroovieShell. First, add the groovy-all Maven dependency (consider using a fresher version):

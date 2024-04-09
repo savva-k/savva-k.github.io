@@ -4,11 +4,9 @@ date: "2015-06-29"
 categories:
   - "Coding"
 tags:
-  - "interview questions"
   - "Java"
+summary: "If you don't know how objects initialize in Java, it may be a surprise when you write some code. Find out!"
 ---
-
-If you don't know how objects initialize in Java, it may be a surprise when you write some code. Click more to see Java object initialization order and an example.
 
 The initialization order is:
 

@@ -5,10 +5,8 @@ categories:
   - "Coding"
 tags:
   - "Java"
-  - "task"
+summary: "Last week we had a programming competition at work which consisted of some small tasks. One of them was to check, if we can make a given string palindrome by adding one letter in any place. Shame on me, I didn't manage with this task on time. However I got the third place in this competition. 🏆😁"
 ---
-
-Last week we had a programming competition at work which consisted of some small tasks. One of them was to check, if we can make a given string palindrome by adding one letter in any place. Shame on me, I didn't manage with this task on time. However I got the third place in this competition. 🏆😁
 
 So the task:  
 Your app should check, if it's possible to make a palindrome by adding a lowercase English letter to a given string in any position. If it is, the application should return an index which points to where to put a character, otherwise the app should return `-1`. The given string contains only lowercase Latin characters.

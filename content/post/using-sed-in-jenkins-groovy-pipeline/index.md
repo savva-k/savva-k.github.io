@@ -4,10 +4,10 @@ date: "2020-05-22"
 author: "Savva Kodeikin"
 categories: ["DevOps"]
 tags: ["Sed", "Jenkins", "Groovy"]
-image: images/sed_vs_jenkins.png
+params:
+  mainImage: "images/sed_vs_jenkins.png"
+summary: "I spent some time trying to figure out how to fix **unexpected slash char** error in my pipeline."
 ---
-
-I spent some time trying to figure out how to fix **unexpected slash char** error in my pipeline.
 
 My aim was to change some value in a config file after checking out a Git repository. I have a Jenkins pipeline and I used sed to perform the substitution.
 

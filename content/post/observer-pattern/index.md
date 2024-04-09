@@ -4,11 +4,10 @@ date: "2016-06-19"
 categories:
   - "Coding"
 tags:
-  - "patterns"
+  - "Design Patterns"
   - "Java"
+summary: "Observer is a software design pattern, that is used when some objects create events and other objects should be notified when these events occur."
 ---
-
-**Observer** is a software design pattern, that is used when some objects create events and other objects should be notified when these events occur.
 
 The main idea is that we have two types of instances: one that produces events and one that consumes them. Events producer must have three methods:
 

@@ -1,9 +1,12 @@
 ---
 title: "Solving the issue with debugging GWT in Idea: Error scanning entry: module-info.class"
 date: "2021-07-16"
+lastMod: "2024-04-08"
 categories: [ "Coding" ]
 tags: [ "GWT", "Java", "Jetty" ]
-image: images/main.png
+summary: "How to fix the issue quickly and effectively withot registration and SMS."
+params:
+  mainImage: "images/main.png"
 ---
 
 Recently I had to debug a GWT application in Intellij Idea using the GWT plugin, but it seemed to be broken. I was getting the following issue when the app was starting:
@@ -61,3 +64,8 @@ The rest of the steps should be done in the Idea:
 After these steps you should be able to debug the GWT app at http://localhost:8085/App.html
 
 The Java code will be injected to the browser's page. It will be available via inspector, on the Source tab 🥴
+
+**Update 08.04.2024**
+
+I was mumbling about GWT in 2021 (on the post's picture). It is now 2024 and GWT is still there, feeling pretty well! Long live GWT? Maybe!
+

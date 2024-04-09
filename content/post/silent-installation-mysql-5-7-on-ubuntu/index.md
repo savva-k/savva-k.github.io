@@ -3,7 +3,7 @@ title: "Silent installation MySQL 5.7 on Ubuntu"
 date: "2016-04-17"
 categories: ["DevOps"]
 tags: ["Bash", "Linux", "MySQL", "Ubuntu"]
-image: "images/main.png"
+summary: "This week I had to install MySQL 5.7 using a shell script. So maybe it would be helpful for someone else. This script must be run as root." 
 ---
 
 This week I had to install MySQL 5.7 using a shell script. So maybe it would be helpful for someone else. This script must be run as root.

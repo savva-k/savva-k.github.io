@@ -7,7 +7,9 @@ tags:
   - "Apache Fop"
   - "Java"
   - "PDF"
-image: images/main.png
+summary: "That was a funny task to research and implement, as I remember it now. Then I thought, why aren't there an easier way?"
+params:
+  mainImage: "images/main.png"
 ---
 
 This January (and, actually, February) I worked on generating PDF files. During the investigation process, we've chosen [Apache FOP](https://xmlgraphics.apache.org/fop/) as a free powerful tool for this task.

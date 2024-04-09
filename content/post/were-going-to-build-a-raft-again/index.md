@@ -5,10 +5,12 @@ categories:
   - "Blog"
 tags:
   - "trip"
-image: images/main.jpg
+params:
+  mainImage: images/main.jpg
+summary: "Writing this summary in 2024 and realizing that this trip was 10 years almost made me add the 'Funny and a Little Bit Sad' tag to it."
 ---
 
-Last year (as I remember it was 05 June 2014) we fused with friends on a raft, which was created by us. We used six 200 liters barrels and some boards, one friend of mine made a paddle-wheel, that worked really bad, the chain always jumped out the sprocket. But it looked cool, it was an interesting mechanism. They fused two days, but I left them on the second day, because 6 June is my friend's b-day, so I had to go in another town to congratulate him. The path length was about 50 km, and we went 25 km for 12 hours! It was really nice and funny. This year we will repeat our journey, I hope it will be at least like in last year, or better.
+Last year (as I remember it was 05 June 2014) we went rafting on a hand-made raft with friends. We used six 200 liters barrels and some planks, one of the guys made a paddle-wheel, which worked really bad, because the chain would always jump out of the sprocket. But it looked cool, it was an interesting mechanism. They rafted for two days, but I had to leave them on the second day, because it was my friend's birthday on 6 June, so I had to drive to another town to congratulate him and have some party. The route was around 50 km, and we went 25 km for 12 hours! It was really nice and funny. This year we will repeat our journey, I hope it will be at least like in last year, or better.
 
 Some photos from 2014:
 

@@ -4,8 +4,8 @@ date: "2019-01-11"
 categories:
   - "Coding"
 tags:
-  - "1Z0-808"
   - "Java"
+summary: "Describing default field values in Java. Proving that initialization matters."
 ---
 
 ```java

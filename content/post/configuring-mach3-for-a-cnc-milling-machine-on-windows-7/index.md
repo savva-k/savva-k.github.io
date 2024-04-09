@@ -4,12 +4,12 @@ date: "2020-02-12"
 categories:
   - "Blog"
 tags:
-  - "technical"
-  - "windows"
+  - "hardware"
   - "CNC"
+summary: "My experience of configuring Mach3 software for a CNC milling machine on Windows 7."
+params:
+  mainImage: "images/main.jpg"
 ---
-
-![](images/main.jpg)
 
 Long time no posts, huh? I have a lot of interesting news and I hope to have some time to write it here. However, this post was inspired by my yesterday's experience.
 

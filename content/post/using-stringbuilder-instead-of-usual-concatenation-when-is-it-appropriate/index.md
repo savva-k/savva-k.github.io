@@ -5,10 +5,8 @@ categories:
   - "Coding"
 tags:
   - "Java"
-  - "dig deeper"
+summary: "You might know that using string concatenation in Java is not a good practice as it might affect performance. In this short article, I will try to describe when it is necessary to use StringBuilder and when we can afford using concatenation."
 ---
-
-You might know that using string concatenation in Java is not a good practice as it might affect performance. In this short article, I will try to describe when it is necessary to use StringBuilder and when we can afford using concatenation (+ sign).
 
 Let's start with a simple example:
 
