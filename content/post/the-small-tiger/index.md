@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "The small tiger"
 date: "2015-07-14"
 categories:

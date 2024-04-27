@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Futurama: Worlds of Tomorrow. Brief overview."
 date: "2017-07-06"
 lastMod: "2024-04-08"

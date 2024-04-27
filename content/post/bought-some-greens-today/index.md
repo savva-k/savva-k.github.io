@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Bought some greens today."
 date: "2016-08-16"
 categories:

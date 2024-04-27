@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Some daily news"
 date: "2015-07-14"
 categories:

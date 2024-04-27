@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Azure Window collapses in Malta"
 date: "2017-03-11"
 categories:

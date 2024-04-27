@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Weekend in Yaroslavl"
 date: "2015-06-16"
 categories:
