@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "We're going to build a raft again."
 date: "2015-07-08"
 categories:

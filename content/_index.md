@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Home
 description: "Savva Kodeikin, full-stack developer"
 ---
