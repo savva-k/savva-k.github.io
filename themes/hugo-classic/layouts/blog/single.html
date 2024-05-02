@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<div class="article-meta">
+  <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+</div>
+
+<main>
+  {{ $mainImage := .Resources.GetMatch .Params.mainImage }} {{ with $mainImage
+  }} {{ $mainImage := $mainImage.Process "resize 600x" }}
+  <img src="{{ $mainImage.RelPermalink }}" alt="{{ $.Title }}" />
+  {{ end }} {{ .Content }}
+  <a href="/blog"> >> Back to blog</a>
+</main>
+
+{{ partial "footer.html" . }}

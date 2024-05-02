@@ -1,6 +1,7 @@
 ---
 title: "Configuring Mach3 for a CNC milling machine on Windows 7"
 date: "2020-02-12"
+type: post
 categories:
   - "Blog"
 tags:
