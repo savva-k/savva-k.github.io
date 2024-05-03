@@ -1,31 +1,21 @@
 {{ partial "header.html" . }}
-<div class="content-wrapper">
-  <div class="article-meta">
-    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
-  </div>
-
-  <div class="content-wrapper">
-    <main>{{ .Content }}</main>
-  </div>
-
-  <hr />
-  {{ $pages := .Pages }} {{ range (where $pages "Section" "!=" "") }}
-  <div class="post-teaser">
-    {{ $mainImage := .Resources.GetMatch .Params.mainImage }} {{ with $mainImage
-    }} {{ $mainImage := $mainImage.Fill "250x150 webp picture" }}
-    <div class="post-image">
-      <img src="{{ $mainImage.RelPermalink }}" alt="{{ .Title }}" />
-    </div>
-    {{ end }}
-    <div class="post-content">
-      <div class="post-header">
-        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-        <span class="post-date">{{ .Date.Format "2006/01/02" }}</span>
-      </div>
-      <div class="post-summary">{{ .Summary }}</div>
-    </div>
-  </div>
-  <hr />
-  {{ end }}
+<div class="article-meta">
+  <h1><span class="title">{{ .Title | markdownify }}</span></h1>
 </div>
-{{ partial "footer.html" . }}
+
+<div class="content-wrapper">
+  <main>{{ .Content }}</main>
+</div>
+
+<hr />
+{{ $pages := .Pages }} {{ range (where $pages "Section" "!=" "") }}
+<div class="post-teaser">
+  <div class="post-content">
+    <div class="post-header">
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+      <span class="post-date">{{ .Date.Format "2006/01/02" }}</span>
+    </div>
+    <div class="post-summary">{{ .Summary }}</div>
+  </div>
+</div>
+{{ end }} {{ partial "footer.html" . }}
