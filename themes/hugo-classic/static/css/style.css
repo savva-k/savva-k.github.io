@@ -312,3 +312,13 @@ blockquote {
     flex-direction: column;
   }
 }
+
+.send-message-success {
+  padding: 1rem;
+  border: 1px solid #aef359;
+}
+
+.send-message-error {
+  padding: 1rem;
+  border: 1px solid red;
+}
