@@ -5,13 +5,17 @@ description: "Savva Kodeikin, full-stack developer"
 ---
 
 <script>
+  canSendOnEnter = true;
+  const fields = ["sender", "message"];
+
   function setDisabled(id, disabled) {
+    canSendOnEnter = disabled;
     document.getElementById(id).disabled = disabled;
   }
 
   function displayResult(divClass, text) {
     document.getElementById("form-sumbit-result").innerHTML =
-      `<div class='${divClass}'>${text}</div>`;
+      `<div class='${divClass} mb-2'>${text}</div>`;
   }
 
   function displayError(text) {
@@ -29,7 +33,26 @@ description: "Savva Kodeikin, full-stack developer"
     };
   }
 
+  function validateForm() {
+    let result = true;
+    fields.forEach((id) => {
+      if (!document.getElementById(id).value) {
+        result = false;
+      }
+    });
+    return result;
+  }
+
+  function cleanForm() {
+    fields.forEach((id) => (document.getElementById(id).value = ""));
+  }
+
   async function sendMessage() {
+    if (!validateForm()) {
+      displayError("Fields should not be empty!");
+      return;
+    }
+
     setDisabled("submit-btn", true);
     try {
       const response = await fetch("https://insider.savva.cz/message", {
@@ -46,6 +69,7 @@ description: "Savva Kodeikin, full-stack developer"
           "Message could've been sent, but the response is not as expected... Strange...",
         );
       }
+      cleanForm();
     } catch (error) {
       console.log(error);
       displayError(
@@ -58,16 +82,18 @@ description: "Savva Kodeikin, full-stack developer"
 </script>
 
 <div id="form-sumbit-result"></div>
-<div>
+<div class="contact-form">
   <div>Your name and contact info (in case you'd like to have a response):</div>
-  <div>
-    <input type="text" id="sender" />
+  <div class="contact-field">
+    <input autofocus type="text" id="sender" />
   </div>
   <div>The message:</div>
-  <div>
-    <textarea id="message" cols="50" rows="5"></textarea>
+  <div class="contact-field">
+    <textarea id="message"></textarea>
   </div>
-  <div>
-    <button onclick="sendMessage()" id="submit-btn">Send the message</button>
+  <div class="mb-2 submit-btn-container">
+    <button onclick="sendMessage()" id="submit-btn" class="submit-btn">
+      Send the message
+    </button>
   </div>
 </div>

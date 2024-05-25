@@ -322,3 +322,30 @@ blockquote {
   padding: 1rem;
   border: 1px solid red;
 }
+
+.contact-form input,
+textarea {
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 130px;
+}
+
+.contact-form .contact-field {
+  margin-bottom: 0.75rem;
+}
+
+.contact-form .submit-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.contact-form .submit-btn {
+  height: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
